@@ -109,7 +109,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg" style={{ textAlign: 'justify' }}>
-          I am Gowtham, a final year student deeply passionate about Artificial Intelligence and Data Science. Fueled by curiosity and a commitment to innovation. My hands-on experience encompasses a diverse range of skills, from advanced programming languages like Python and R to utilizing frameworks like TensorFlow and PyTorch, and a specialization in Generative AI, particularly LLM and its Agents. A quick learner and team player, I am excited to collaborate on projects that push the boundaries of technology. Let's explore the limitless possibilities of the tech world together!
+          I am Gowtham, a final year student deeply passionate about Artificial Intelligence and Data Science. Fueled by curiosity and a commitment to innovation. My hands-on experience encompasses a diverse range of skills, from advanced programming languages like Python and R to utilizing frameworks like TensorFlow and PyTorch, and a specialization in Generative AI, particularly LLM and its Agents. A quick learner and team player, I am excited to collaborate on projects that push the boundaries of technology. Lets explore the limitless possibilities of the tech world together!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
