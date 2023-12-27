@@ -7,17 +7,17 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Data2Insights",
+    description: "Programming for Data Analytics? Nah, not anymore.. Just talk to your data the AI does the rest! | An Gen AI Application with LangChain Framework",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web","Analysis"],
+    gitUrl: "https://github.com/gowtham-source/data2insights",
+    previewUrl: "https://www.youtube.com/watch?v=KQ5k62DlOHA",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Multimodal Conversational AI",
+    description: "An improvised version of GPT-4 vision, incoperated with Gemini-pro vision model",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -25,21 +25,21 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Calendar Event Scheduler App",
+    description: "It's a fullstack React app that allows users to create events. GraphQl | MongoDb | Tailwind Css",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/gowtham-source/calendar-schedule-app",
+    previewUrl: "https://calendar-schedule-app.vercel.app",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "NCCR PROJECT",
+    description: "Led a geospatial analysis project for NCCR org. Utilized YOLOv8, Inception, ResNet, and SAM Model to assess building proximity and region-wise altitude in Aerial images of Nagapattinam.",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Analysis"],
+    gitUrl: "https://www.linkedin.com/posts/gowtham-m-956363205_linkedin-geospatialanalysis-nccrproject-activity-7094252297349722112-_xAv?utm_source=share&utm_medium=member_desktop",
+    previewUrl: "https://www.linkedin.com/posts/gowtham-m-956363205_linkedin-geospatialanalysis-nccrproject-activity-7094252297349722112-_xAv?utm_source=share&utm_medium=member_desktop",
   },
   {
     id: 5,
@@ -84,6 +84,9 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
+      <React.Fragment>
+      <p className="text-center text-1xl text-gray-500 font-semibold">A sample of my work!</p>
+      </React.Fragment>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
@@ -97,8 +100,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Analysis"
+          isSelected={tag === "Analysis"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
