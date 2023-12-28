@@ -86,7 +86,7 @@ const TAB_DATA = [
         <li>Coursera - Semantic Segmentation with Amazon Sagemaker</li>
         <li>Coursera - Transfer Learning for NLP with TensorFlow Hub</li>
         <li>Workshop - Robotics Workshop at Panimalar</li>
-        <li>PaperPresentation - ICCS-2022 Paper paper presentation on the field of NLP</li>
+        <li>PaperPresentation - ICSSS-2022 Paper presentation on the field of NLP</li>
       </ul>
     ),
   },
